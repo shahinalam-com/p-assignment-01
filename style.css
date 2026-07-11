@@ -4,6 +4,48 @@
     box-sizing: border-box;
 }
 
-.body {
-    font-family: 'Courier New', Courier, monospace;
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.nav-items {
+    display: flex;
+    gap: 1.2rem;
+    list-style: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.nav-btn {
+    background-color: #1d4ed8;
+    padding: 15px 43px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+}
+
+.nav-cta a {
+    text-decoration: none;
+}
+
+.tempsec {
+    background-color: black;
+    padding-top: 50px;
 }
