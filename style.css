@@ -9,6 +9,8 @@ body {
     font-size: 16px;
 }
 
+/* Header and Navbar CSS is Here */
+
 .header {
     background-color: #ffffff;
 }
@@ -37,7 +39,7 @@ body {
     color: #1d4ed8;
     border-bottom: #1d4ed8 solid 3px;
     padding-bottom: 6px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .nav-btn {
@@ -58,6 +60,8 @@ body {
 .nav-cta a {
     text-decoration: none;
 }
+
+/* Hero sections CSS starts from here */
 
 .hero-section {
     background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url("./assets/banner.jpg");
@@ -102,5 +106,20 @@ body {
 .hero-btn:hover {
     background-color: #ffffff;
     color: #1d4ed8;
+}
+
+/* Speakers sections CSS start from here */
+
+.speakers-section {
+    padding: 100px 0;
+}
+
+.speakers-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.speakers-heading h2 {
+    font-size: 50px;
 }
 
