@@ -33,6 +33,13 @@ body {
     color: #575757;
 }
 
+.nav-items a:hover {
+    color: #1d4ed8;
+    border-bottom: #1d4ed8 solid 3px;
+    padding-bottom: 6px;
+    transition: 0.5s;
+}
+
 .nav-btn {
     background-color: #1d4ed8;
     padding: 15px 43px;
@@ -96,3 +103,4 @@ body {
     background-color: #ffffff;
     color: #1d4ed8;
 }
+
