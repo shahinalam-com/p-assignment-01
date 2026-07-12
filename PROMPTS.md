@@ -1,0 +1,1 @@
+I have a landing page of Web Developer conference. I already added sections like Hero, Speakers, Pricing and Footers. Is there anything else that is relevant and helpful so I can add the element into my landing page.
