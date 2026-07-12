@@ -483,3 +483,49 @@ hr {
 
 /* Why Join CSS start here */
 
+.why-join {
+    padding: 30px 0;
+    margin-bottom: 80px;
+}
+
+.why-join-container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-inline: 20px;
+}
+
+.why-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.why-heading h2 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.why-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.cards-data {
+    border: #E5E7EB 1px solid;
+    border-radius: 10px;
+    padding: 30px 25px;
+    text-align: center;
+}
+
+.cards-data i {
+    font-size: 60px;
+    color: #1d4ed8;
+    margin-bottom: 20px;
+}
+
+.cards-data p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* End! Thanks for checking. */
